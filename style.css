@@ -20,8 +20,7 @@ main {
 /* nav - section */
 nav {
   width: 100%;
-  padding: 0 20px;
-  background-color: #dadada;
+  padding: 1px 20px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -59,15 +58,13 @@ header h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-top: 30px; */
 }
 
 .center p {
-   width: 500px;  
+  width: 500px;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.4;
- 
 }
 
 .right {
@@ -80,7 +77,6 @@ header h1 {
 .elem {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   padding: 8px 0;
   border-bottom: 1px solid #ccc;
 }
@@ -103,10 +99,9 @@ header h1 {
 
 .bottom {
   width: 100%;
-  height: 260px;
-  /* background-color: red; */
-  background-image: url(https://images.unsplash.com/photo-1613730317814-1cede28e0151?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBtb2RlbHxlbnwwfHwwfHx8MA%3D%3D);
+  height: 287px;
+  background-image: url(https://images.unsplash.com/photo-1613876214872-a73df2a1b8bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBtb2RlbHxlbnwwfHwwfHx8MA%3D%3D);
   background-size: cover;
-  background-position: 0 30%;
+  background-position: 30% 10%;
   background-repeat: no-repeat;
 }
