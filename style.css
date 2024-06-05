@@ -28,7 +28,7 @@ nav {
 }
 
 nav h4 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 
@@ -37,7 +37,7 @@ nav h4:hover {
 }
 
 nav i {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   background-color: #000;
   padding: 9px;
@@ -66,7 +66,7 @@ header h1 {
 
 .center p {
   width: 500px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.5;
   word-spacing: 1px;
@@ -104,6 +104,10 @@ header h1 {
 
 .elem:hover i {
   opacity: 1;
+}
+
+.elem:hover{
+  text-decoration: underline;
 }
 
 .bottom {
