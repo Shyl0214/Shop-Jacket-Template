@@ -32,6 +32,10 @@ nav h4 {
   font-weight: 500;
 }
 
+nav h4:hover {
+  cursor: pointer;
+}
+
 nav i {
   font-size: 1rem;
   font-weight: 400;
@@ -57,7 +61,7 @@ header h1 {
 .center {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .center p {
@@ -68,6 +72,7 @@ header h1 {
   word-spacing: 1px;
   letter-spacing: 1px;
   color: #3b3434;
+  margin-top: 10px;
 }
 
 .right {
@@ -81,8 +86,8 @@ header h1 {
 .elem {
   display: flex;
   justify-content: space-between;
-  padding: 8px 0;
-  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  border-top: 1px solid #ccc;
 }
 
 .elem a {
@@ -93,12 +98,12 @@ header h1 {
 }
 
 .elem i {
-  color: black;
+  font-size: 18px;
+  opacity: 0;
 }
 
-.elem a:hover,
-.elem i:hover {
-  color: #007bff;
+.elem:hover i {
+  opacity: 1;
 }
 
 .bottom {
@@ -109,6 +114,6 @@ header h1 {
   height: 267px;
   background-image: url(https://images.unsplash.com/photo-1613876214872-a73df2a1b8bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBtb2RlbHxlbnwwfHwwfHx8MA%3D%3D);
   background-size: cover;
-  background-position: 30% 10%;
+  background-position: 10% 20%;
   background-repeat: no-repeat;
 }
